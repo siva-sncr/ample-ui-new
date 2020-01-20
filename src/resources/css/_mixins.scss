@@ -1,0 +1,13 @@
+@mixin border-radius($radius) {
+    -webkit-border-radius: $radius;
+    -moz-border-radius: $radius;
+    -ms-border-radius: $radius;
+    border-radius: $radius;
+}
+
+@mixin box-shadow($login-shadow) {
+    -webkit-box-shadow: $login-shadow;
+    -moz-box-shadow: $login-shadow;
+    -ms-box-shadow: $login-shadow;
+    box-shadow: $login-shadow;
+}

@@ -1,0 +1,50 @@
+
+// Global Declartions 
+@import 'common';
+@import 'home';
+@import 'variables';
+@import 'mixins';
+@import 'rcsMessaging';
+
+	/*   Header Right align -start  */
+    @font-face {
+        font-family: myFont;
+        src: url(../fonts/RawengulkSans-094.ttf);
+    }
+        /*   Header Right align -end  */
+    $primarycolor: #bec70f;
+    $secondarycolor: #29a2c6;
+    $graycolor: #666666;
+    
+    html, body, #root{
+        height: 100%;
+    }
+    
+    body{
+        /* font-family: $fontfamily !important; */
+        font-family: 'Open Sans', sans-serif;
+        -ms-overflow-style: scrollbar;
+    }
+    
+    /* Device Mgmt */
+    
+    $font-color:#444444;
+    
+    $menu-active-bg:#666666;
+    $sub-menu-wrap-bg:#eeeeee;
+    $wrapper-header-bg:#dddddd;
+    $wrapper-header-color:#6C6A6A;
+    $wrapper-border-color:#cccccc;
+    
+        @mixin border-radius($radius) {
+          -webkit-border-radius: $radius;
+             -moz-border-radius: $radius;
+              -ms-border-radius: $radius;
+                  border-radius: $radius;
+        }
+        @mixin box-shadow($login-shadow) {
+            -webkit-box-shadow: $login-shadow;
+               -moz-box-shadow: $login-shadow;
+                -ms-box-shadow: $login-shadow;
+                    box-shadow: $login-shadow;
+        }

@@ -1,0 +1,3 @@
+export {
+    rcsMsgSubmit
+} from './rcsMsgActionsBuilder';

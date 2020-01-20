@@ -1,0 +1,88 @@
+$heading-text-clr: #1278BD;
+$title-bg-clr: #F5F9FB;
+$title-text-clr: #474747;
+$methodurl-text-clr: #3c3c3c;
+
+.rcs_messaging {
+    .header {
+        margin-top: 10px;
+        padding-left: 20px;
+        text-shadow: none;
+        font-weight: bold;
+        color: $heading-text-clr;
+    }
+    .title {
+        margin-top: 10px;
+        padding-left: 20px;
+        padding-top: 10px;
+        height: 50px;
+        text-shadow: none;
+        font-weight: 500;
+        font-size: large;
+        background: $title-bg-clr;
+        border: 2px solid $title-bg-clr;
+        color: $title-text-clr;
+    }
+    .method_url {
+        margin-top: 20px;
+        padding-left: 20px;
+        font-weight: 600;
+        font-size: small;
+        color: $methodurl-text-clr;
+
+        .method_url_row {
+            margin: 10px 40px 10px 0px !important;
+        }
+    }
+    .maap-std {
+        border-bottom: 1px solid $heading-text-clr;
+    }
+    .headers {
+        margin-top: 40px;
+        padding-left: 20px;
+        font-weight: 600;
+        font-size: small;
+        color: $methodurl-text-clr;
+
+        .headers_row {
+            margin: -10px 40px 10px 0px !important;
+
+            .form-control {
+                margin-top: 20px;
+            }
+        }
+        .standard_row {
+            margin: 10px 40px 10px 0px !important;
+        }
+        .MDN_row {
+            margin-top: 10px;
+            text-shadow: none;
+            font-weight: bold;
+            color: #1278BD;
+        }
+        .submit {
+            background: $heading-text-clr;
+            color: #fff;
+        }
+
+        .table-fixed {
+            thead{
+                display:table;
+                width:100%;
+                table-layout:fixed;
+            }
+            tbody  {
+                display:block;
+                height:140px;
+                overflow:overlay;
+                tr{
+                    display:table;
+                    width:100%;
+                    table-layout:fixed;
+                }
+            }
+        } 
+        
+    }
+
+}

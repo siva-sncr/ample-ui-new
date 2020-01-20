@@ -1,0 +1,12 @@
+{
+    "restapi": {
+        "host": "a2p.maap-qa.us.sncrmmp.com",
+        "protocol": "https",
+        "contextPath": ""
+    },
+    "api": {
+        "msg": {
+            "sendMsg": "rcsbotsgateway/rcs/bot/v1/yummybakeryccmiqa/messages"
+        }
+    }
+}
