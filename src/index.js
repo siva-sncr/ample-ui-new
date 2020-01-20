@@ -1,6 +1,6 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import Maap from './Maap';
+import Ampleapp from './AmpleApp';
 import * as serviceWorker from './serviceWorker';
 import { IntlProvider, addLocaleData } from "react-intl";
 import en from 'react-intl/locale-data/en';
@@ -43,7 +43,7 @@ const flattenMessages = ((nestedMessages, prefix = '') => {
 
 ReactDOM.render(
     <IntlProvider locale={language} messages={flattenMessages(messages)} >
-        <Maap />
+        <Ampleapp />
     </IntlProvider>,
     document.getElementById('root'));
 

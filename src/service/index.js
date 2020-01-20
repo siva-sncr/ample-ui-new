@@ -7,7 +7,7 @@ const instance = axios.create({
 });
 
 // Alter defaults after instance has been created
-instance.defaults.headers.common['Authorization'] = 'Bearer 07cf03fac7c440818b5b9d5eaccb6843dc8374ec144e44f3b886af35e3f80edf3f8267d0b4cd468ba00000f0032a69cbcd15b6b2b94b47b3b05ecb60abd6fb2ab9608314953043cda7ec62726a6f0e3a';
+instance.defaults.headers.common['Authorization'] = '512A3F732E80FC56638B24AB833C29B7';
 instance.defaults.headers.post['Content-Type'] = 'application/json';
 
 export default instance;

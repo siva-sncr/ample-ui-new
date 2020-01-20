@@ -7,19 +7,8 @@ import Header from '../header';
 import MainContent from '../mainContent';
 
 import '../resources/css/style.css';
-import '../resources/css/bootstrap-multiselect.css';
 
 class HomeComponent extends Component {
-/*
-    state = {
-
-    }
-    
-    componentDidMount() {
-    }
-    componentWillReceiveProps(newProps) {
-    } */
-
     render() {
 
         return (
