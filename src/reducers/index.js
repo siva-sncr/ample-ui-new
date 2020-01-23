@@ -1,8 +1,8 @@
 import { combineReducers } from 'redux';
-// import rcsMsgReducer from './rcsMsgReducer';
+import loginReducer from './loginReducer';
 
-const maapReducer = combineReducers({
-    // rcsMsgData: rcsMsgReducer
+const reducer = combineReducers({
+    loginReducer: loginReducer
 });
 
-export default maapReducer;
+export default reducer;

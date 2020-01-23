@@ -1,0 +1,96 @@
+$primarycolor: #bec70f;
+$secondarycolor: #29a2c6;
+$graycolor: #666666;
+$bordercolor: #cccccc;
+$titletextcolor: #646464;
+$fontfamily: 'Open Sans', sans-serif;
+$buttontextcolor: #333333;
+$buttoncolor: #D98C15;
+.logo{
+    background-image: url('../images/login_logo.png');
+    background-repeat: no-repeat;
+    background-size: 35% 20%;
+    background-position: 185px 10px;
+}
+.login-view{
+    width: 100%;
+    height: 100%;
+    padding: 0;
+    position: absolute;
+    top: 0;
+    left: 0;
+    margin: 0;
+    display: table;
+    max-width:100%;
+}
+.login-content{
+    padding: 0;
+    vertical-align: middle;
+    display: table-cell;
+    margin: 0;
+}
+.login-wrap{
+    @extend .logo;
+    width: 320px;
+    max-width: 370px;
+    min-height: 370px;
+    margin: 0 auto;
+    padding: 26px;
+    border-radius:6px;
+    border: 10px;
+    box-shadow:2px 2px 2px 3px rgba(42,42,42,0.7);
+    .login-title{
+        color:$titletextcolor;
+        font-family: $fontfamily;
+        font-size: 180%;
+        font-weight: bold;
+        text-align: center;
+        margin-bottom: 40px;
+        margin-top: 20px;
+    }
+    .form-horizontal {
+        margin-bottom: 15px;
+        margin-top: 88px;
+    }	
+    .forgot-password{
+        color: #BF7400;
+        margin-bottom: 3px;
+        font-size: 13px;
+        font-style: bold;
+        padding: 0;
+        a:hover{
+        text-decoration: underline;
+        }
+    }
+    .login-btn{
+         background: $buttoncolor !important;
+         color: $buttontextcolor !important;
+         border-radius:3px;
+    }
+}
+.login-footer{
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 0px;
+    margin: auto;
+    padding-right: 15px;
+}
+.mrgnlr0{
+    margin-right: 0 !important;
+    margin-left: 0 !important;
+}
+.alert-error{
+    padding: 15px;
+    margin-bottom: 20px;
+    border-radius: 4px;
+    color: #a94442;
+    background-color: #f2dede;
+    border-color: #ebccd1;
+}
+.ftrpos{
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    padding-right: 15px;
+}

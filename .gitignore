@@ -2,3 +2,4 @@
 /node_modules
 /package-lock.json
 src/resources/css/style.css
+src/resources/css/login.css

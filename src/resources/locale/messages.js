@@ -1,47 +1,20 @@
 export default {
     _comment_: "loading all text messages in en block...",
-
-
     en: {
         common: {
             logoTitle: "Synchronoss",
             button: {
                 submit: "Submit",
                 save: "Save",
-                refreshAll: "Refresh All"
+                refreshAll: "Refresh All",
+                login: "Login",
             }
         },
-        rcsMessaging: {
-            heading: {
-                title: "MaaP Testing",
-                desc: "A platform to Test and Analyse RCS messages",
-                subTitle: "RCS Messaging"
-            },
-            content: {
-                methodUrlTitle: "Method and URL",
-                headers: {
-                    title: "Headers",
-                    contentType: "Content-Type",
-                    botId: "botId",
-                    token: "token"
-                },
-                standard: {
-                    title: "MaaP Standard",
-                    addMdn: "Add MDN"
-                },
-                msgStatus: {
-                    title: "Message Status",
-                    column: {
-                        number: "Number",
-                        status: "Status",
-                        action: "Action"
-                    }
-                },
-                saveJson: {
-                    title: "Save Json",
-                    text: "Do you want to save the json for furture reference ?"
-                }
-            }
+        data: {
+            loginTitle: "Grid Analytics System",
+            forgotPassword: "Forgot Password ?",
+            invalidUserPass: "Invalid username or password. Please try again.",
+            copyRight: `Copyright © ${new Date().getFullYear()} Sentient Energy, Inc. All rights reserved.`
         }
     },
 
