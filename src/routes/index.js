@@ -11,7 +11,7 @@ class Routes extends Component {
             <Switch>
                 {/* <Route exact path='/' render={() => (<Redirect to='/rcs-messaging' />)} /> */}
                 <Route exact path='/'/>
-                <Route path="/rcs-messaging" />
+                {/* <Route path="/dashboard" component={dashboard} /> */}
                 <Route path="/analytics" component={asyncRoute('analytics')} />
                 <Route path="/automation" component={asyncRoute('automation')} />
             </Switch>

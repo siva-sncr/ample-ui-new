@@ -1,23 +1,20 @@
 import React, { Component } from 'react';
 import { withRouter } from 'react-router-dom'
 import { connect } from 'react-redux';
-import Routes from '../routes';
+// import Routes from '../routes';
+import { Row, Col } from 'react-bootstrap';
 
 class MainContent extends Component {
-
-    componentDidMount() {
-    }
-
-    componentWillReceiveProps(newProps) {
-    }
-
     render() {
-
         return (
-            <React.Fragment>
-                <Routes />
-            </React.Fragment>
-
+           <Row>
+               <Col sm={3}>
+                   <div>tree view render here</div>
+               </Col>
+               <Col sm={9}>
+                   <div>table data render here</div>
+               </Col>
+           </Row>
         );
     }
 }

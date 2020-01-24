@@ -14,7 +14,17 @@ export default {
             loginTitle: "Grid Analytics System",
             forgotPassword: "Forgot Password ?",
             invalidUserPass: "Invalid username or password. Please try again.",
-            copyRight: `Copyright © ${new Date().getFullYear()} Sentient Energy, Inc. All rights reserved.`
+            copyRight: `Copyright © ${new Date().getFullYear()} Sentient Energy, Inc. All rights reserved.`,
+            deviceConfiguration:"Device Configuration",
+            firmwareUpgrade:"Firmware Upgrade",
+            systemAdmin:"System Admin",
+            configueProperties:"Configure Properties",
+            manageProfiles:"Manage Profiles",
+            userManagement:"User Management",
+            about:"About",
+            updateProfile:"Update Profile",
+            changePassword:"Change Password",
+            logOut:"Log out"
         }
     },
 

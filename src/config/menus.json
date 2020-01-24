@@ -1,14 +1,18 @@
 [
     {
-        "link": "rcs-messaging",
-        "value": "RCS Messaging"
+        "link": "amplemanage/dashboard",
+        "value": "Dashboard"
     },
     {
-        "link": "analytics",
-        "value": "Analytics"
+        "link": "amplemanage/line-monitoring",
+        "value": "Line Monitoring"
     },
     {
-        "link": "automation",
-        "value": "Automation"
+        "link": "amplemanage/device-management",
+        "value": "Device Management"
+    },
+    {
+        "link": "amplemanage/reports",
+        "value": "Reports"
     }
 ]
