@@ -24,7 +24,11 @@ export default {
             about:"About",
             updateProfile:"Update Profile",
             changePassword:"Change Password",
-            logOut:"Log out"
+            logOut:"Log out",
+            editNode:"Edit Node",
+            addRegion:"Add Region",
+            addDevice:"Add Device",
+            details:"Details"
         }
     },
 
