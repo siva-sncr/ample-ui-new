@@ -37,7 +37,6 @@ class treeContainer extends Component {
         })
     }
     closeContextMenu = (event,clickedNode) => {
-        debugger
         this.setState({
             contextMenuClassName: "",
             selectedNodeId:clickedNode.node.id

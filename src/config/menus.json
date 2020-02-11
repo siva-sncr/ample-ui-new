@@ -1,18 +1,18 @@
 [
     {
-        "link": "amplemanage/dashboard",
+        "link": "",
         "value": "Dashboard"
     },
     {
-        "link": "amplemanage/line-monitoring",
+        "link": "line-monitoring",
         "value": "Line Monitoring"
     },
     {
-        "link": "amplemanage/device-management",
+        "link": "device-management",
         "value": "Device Management"
     },
     {
-        "link": "amplemanage/reports",
+        "link": "reports",
         "value": "Reports"
     }
 ]

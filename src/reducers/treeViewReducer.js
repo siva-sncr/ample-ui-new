@@ -8,7 +8,6 @@ const initialState = {
     // }]
 };
 const treeviewReducer = function (currentState = initialState, action) {
-    debugger
     let currentStateVal ={...currentState};
     switch (action.type) {
         case actionTypes.LOAD_INITIAL_TREE:

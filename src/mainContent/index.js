@@ -1,21 +1,25 @@
 import React, { Component } from 'react';
 import { withRouter } from 'react-router-dom'
 import { connect } from 'react-redux';
-// import Routes from '../routes';
 import Tree from '../treeView/index';
 import { Row, Col } from 'react-bootstrap';
 import TreeProvider from '../treeView/provider/treeProvider';
+import '../resources/css/home.css';
+import Routes from '../routes'
 
 class MainContent extends Component {
     render() {
+        let displayValue = (this.props.location.pathname === "/") ? "none" : "block";
+        let widthValue = (this.props.location.pathname === "/") ? 12 : 9;
+        let rightSectionClass = (this.props.location.pathname === "/") ? "right-col hide-tree" : "right-col show-tree";
         return (
            <Row>
                <TreeProvider>
-               <Col sm={3} className="left-col">
+               <Col sm={3} className="left-col" style= {{display:displayValue}}>
                    <Tree/>
                </Col>
-               <Col sm={9} className="right-col">
-                   <div>table data render here</div>
+               <Col sm={widthValue} className="right-col">
+                   <Routes/>
                </Col>
                </TreeProvider>
            </Row>

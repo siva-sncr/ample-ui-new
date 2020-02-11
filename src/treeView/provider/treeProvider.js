@@ -8,6 +8,7 @@ class TreeProvider extends Component {
 
   state = {
     tree: [],
+    selectedNodeName:"SentientEnergy"
   }
   initTree = (treeData) => {
     treeData.title = treeData.name;
@@ -104,7 +105,8 @@ class TreeProvider extends Component {
             break;
         }
         this.setState({
-          tree: Object.assign([], currentStateVal.tree)
+          tree: Object.assign([], currentStateVal.tree),
+          selectedNodeName:node.node.name
         });
       }
     }
@@ -115,7 +117,8 @@ class TreeProvider extends Component {
         tree: this.state.tree,
         initTree: this.initTree,
         loadNextLevel: this.loadNextLevel,
-        dummy: this.dummy
+        dummy: this.dummy,
+        selectedNodeName:this.state.selectedNodeName
       }}>
         {this.props.children}
       </TreeContext.Provider>

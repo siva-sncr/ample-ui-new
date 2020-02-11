@@ -1,0 +1,13 @@
+.right-col {
+    margin-top: 35px;
+    position: static;
+    float: left;
+    padding: 0px;
+    height: 100%;
+    .hide-tree{
+        width: 100%;
+    }
+    .show-tree{
+        width: calc(100% - 270px);
+    }
+}

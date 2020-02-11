@@ -28,7 +28,9 @@ export default {
             editNode:"Edit Node",
             addRegion:"Add Region",
             addDevice:"Add Device",
-            details:"Details"
+            details:"Details",
+            deviceManagementBaseMsg:"Select a Region or Substation or Feeder or Site on the left hand side tree to see the list of devices to manage.",
+            lineMonitoringBaseMsg:"Select a Feeder or Site or Custom Group on the Left Hand Side Tree to view the Fault Events"
         }
     },
 
