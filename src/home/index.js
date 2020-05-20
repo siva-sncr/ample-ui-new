@@ -6,19 +6,19 @@ import { Grid, Row, Col } from 'react-bootstrap';
 import Login from '../login/container/loginContainer';
 import MainContent from '../mainContent';
 import '../resources/css/style.css';
+import Header from "../header/component/headerComponent";
+import Footer from '../footer/component/footerComponent';
 
 class HomeComponent extends Component {
     render() {
         let content = null;
-        if (this.props.loggedIn) {
-            content =
-                <Grid fluid={true} className="home height-100">
-                    <Row className="height-100">
-                        <Col xs={12} md={12} className="right-col padding-0">
-                            <MainContent />
-                        </Col>
-                    </Row>
-                </Grid>
+        //  if (this.props.loggedIn) {
+            if (true) {
+            content =<Grid fluid={true}>
+                        <Row><Col sm={12}><Header /></Col></Row>
+                        <Row><Col sm={12}><MainContent /></Col></Row>
+                        <Row><Col sm={12}><Footer /></Col></Row>
+                    </Grid>
         } else {
             content = <Login />
         }

@@ -1,0 +1,120 @@
+.left-col {
+    .left-nav {
+        display: flex;
+        flex-direction: column; 
+        height: 80vh;
+    }
+    .tree {
+        flex: 1 0 50%;
+        padding: 5px 0px 0px 15px;
+        border: 1px solid lightgray;
+        margin-top: 7px;
+        .rstcustom__rowContents{
+            // direction: rtl;
+            padding-right: 2px;
+            position: relative;
+            // .contextMenu {
+            //     position: fixed;
+            //     z-index: 10000;
+            //     font-size: 14px;
+            //     text-align: left;
+            //     list-style: none;
+            //     background-color: #fff;
+            //     -webkit-background-clip: padding-box;
+            //     background-clip: padding-box;
+            //     border: 1px solid #ccc;
+            //     border-radius: 4px;
+            //     -webkit-box-shadow: 0 6px 12px rgba(0, 0, 0, 0.175);
+            //     box-shadow: 0 6px 12px rgba(0, 0, 0, 0.175); 
+            
+            //      ul {
+            //         padding: 5px 5px 2px 5px; }
+            //      li {
+            //         list-style: none;
+            //         cursor: pointer; 
+            //         display: block;
+            //         padding: 3px 20px;
+            //         clear: both;
+            //         font-weight: 400;
+            //         line-height: 1.42857143;
+            //         color: #333;
+            //         white-space: nowrap;
+            //         font-family: 'Open Sans', sans-serif !important;
+            //       }
+            // }
+        }
+        .glyphicon{
+            display: flex !important;
+        }
+        .rstcustom__collapseButton{
+            display: none;
+        }
+        .rstcustom__expandButton{
+            display: none;
+        }
+        .rst__tree {
+            margin-left: -36px;
+        }
+        .glyphicon-menu-right:before, .glyphicon-menu-down:before {
+            padding-right: 6px; 
+            cursor: pointer;
+        }
+        .rstcustom__rowLabel {
+            position: absolute;
+            padding-left: 22px;
+            font-family: sans-serif;
+        }
+        .svg-node {
+            height: 15px;
+            width: 15px;
+        }
+        .rstcustom__rowToolbar{
+            position: relative;
+        }
+    }
+    .active-tree-node{     
+            padding: 0 3px;
+            box-shadow: 0px 0px 3px 2px #A8A6A6;    
+    }
+    .ReactVirtualized__Grid {
+         outline: none; 
+         will-change: unset !important;
+    }
+}
+.contextMenu {
+    position: fixed;
+    z-index: 10000;
+    font-size: 14px;
+    text-align: left;
+    list-style: none;
+    background-color: #fff;
+    -webkit-background-clip: padding-box;
+    background-clip: padding-box;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    -webkit-box-shadow: 0 6px 12px rgba(0, 0, 0, 0.175);
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.175); }
+    .contextMenu ul {
+      padding: 5px 5px 2px 5px; }
+    .contextMenu li {
+      width: 100%;
+      list-style: none;
+      cursor: pointer; 
+      display: block;
+      padding: 3px 20px;
+      clear: both;
+      font-weight: 400;
+      line-height: 1.42857143;
+      color: #333;
+      white-space: nowrap;
+      font-family: 'Open Sans', sans-serif !important;
+    }
+    .contextMenu li :hover {
+        opacity: 0.5;
+        
+      }
+
+      .rstcustom__rowWrapper:hover { opacity: 1}
+      .rst__virtualScrollOverride {
+        overflow: auto !important;
+    }

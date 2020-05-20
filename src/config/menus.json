@@ -1,14 +1,18 @@
 [
     {
-        "link": "rcs-messaging",
-        "value": "RCS Messaging"
+        "link": "",
+        "value": "Dashboard"
     },
     {
-        "link": "analytics",
-        "value": "Analytics"
+        "link": "line-monitoring",
+        "value": "Line Monitoring"
     },
     {
-        "link": "automation",
-        "value": "Automation"
+        "link": "device-management",
+        "value": "Device Management"
+    },
+    {
+        "link": "reports",
+        "value": "Reports"
     }
 ]

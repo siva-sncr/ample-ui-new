@@ -1,0 +1,51 @@
+// paths
+$imagesPath: '../resources/images/';
+
+// define theme colors
+$main-nav-bg: #333333;
+$main-nav-font: #D98C15;
+$main-nav-active-bg: $main-nav-font;
+$main-nav-active-font: $main-nav-bg;
+$main-nav-height: 36px;
+
+$sub-nav-bg: #E5E5E5;
+$sub-nav-font: $main-nav-bg;
+$sub-nav-active-bg: #A8A6A6;
+$sub-nav-height: 26px;
+
+$clr-orange: $main-nav-font;
+$clr-orange-dark: #BF7400;
+$clr-orange-light: #F1D7AD;
+$clr-gray: $main-nav-bg;
+$clr-gray-light: $sub-nav-active-bg;
+$clr-red: #FF7474;
+$clr-green: #5CD65C;
+$clr-blue: #7495BE;
+
+$settings-color: #aeaeae;
+$settings-more-btn-color: #ffffff;
+$settings-more-txt-color: #D7D7D7;
+$settings-more-opt-bg: #333333;
+$settings-more-opt-color: #868686;
+$settings-more-opt-active-bg: #000000;
+
+// button color variables
+$blue-button: #14b0df;
+
+// header
+$primarycolor: #bec70f;
+$secondarycolor: #29a2c6;
+$graycolor: #666666;
+$bordercolor: #cccccc;
+$titletextcolor: #646464;
+$fontfamily: 'Open Sans', sans-serif;
+$buttontextcolor: #333333;
+$buttoncolor: #D98C15;
+
+// device management
+$font-color:#444444;
+$menu-active-bg:#666666;
+$sub-menu-wrap-bg:#eeeeee;
+$wrapper-header-bg:#dddddd;
+$wrapper-header-color:#6C6A6A;
+$wrapper-border-color:#cccccc;

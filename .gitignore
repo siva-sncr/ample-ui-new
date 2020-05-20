@@ -3,3 +3,8 @@
 /package-lock.json
 src/resources/css/style.css
 src/resources/css/login.css
+src/resources/css/variables.css
+src/resources/css/common.css
+src/resources/css/treeview.css
+src/resources/css/index.css
+src/resources/css/home.css

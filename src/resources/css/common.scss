@@ -1,0 +1,40 @@
+.navbar{
+	 min-height:36px;
+	 height: 36px;
+	 background:#333333;
+	 border: transparent;
+
+	.navbar-nav > li > {
+		a{
+			padding: 8px 10px;
+			color: #D98C15;
+			font-weight: bold;
+			text-shadow: none;
+		}
+		a:hover, a:focus{
+			background: #D98C15 !important;
+		 	color: #333333;
+		}
+	}
+	.navbar-nav > .active >a{
+		background: #D98C15 !important;
+		 	color: #333333!important;
+	}
+	.logo{
+		background-image: url("../images/logo.png");
+		width: 130px;
+		height: 28px;
+		background-size: 100% 100%;
+		background-position: 0,0;
+		margin: 2px 15px 0 0 !important;
+	}
+}
+.container-fluid .left-col {
+	margin-top: 35px;
+    position: static;
+    width: 270px;
+    float: left;
+	height: 100%;
+	padding-left: 10px;
+	padding-right: 10px;
+}
